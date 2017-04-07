@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-BC-Watson-Speech-SMA0317
+  host: IoT-BC-Watson-Speech-SMA0317
+  disk_quota: 1024M
+  services:
+  - IoT-BC-Platform-SMA-1703
+  - IoT-BC-Watson-Speech-SMA0317-cloudantNoSQLDB
+  - Language Translator-cz
+  - Text to Speech-uk
+  - Speech to Text-4k
